@@ -41,7 +41,7 @@ function travelNotes() {
 
   //delete all notes function used by the delete all button.-mb
   function deleteAllNotes(){
-    $("p").remove();
+    $("p").remove();  //This is problematic because it deletes the top and bottom text also.
   }
 
   //handle user event for `add` button click
